@@ -4,15 +4,15 @@ import { ChevronDown } from 'lucide-react';
 const faqs = [
   {
     question: 'Vilka tjänster erbjuder ni?',
-    answer: 'Vi är specialiserade på utveckling av nya eller befintliga webbplatser. Vi har bred kompetens inom området, så behöver du hjälp med annat så går även det.'
+    answer: 'Vi är specialiserade på utveckling av nya eller befintliga webbplatser.'
   },
   {
     question: 'Hur lång tid tar det att utveckla en webbplats?',
-    answer: 'Utvecklingsperioden varier beroende på storlek och komplexictet, vi skriver all kod från grunden för att säkerställa just du får det du önskar. En sida likt denna tar 1-2 veckor medans en större med fler sidor kan ta mellan 4-8 veckor.'
+    answer: 'Utvecklingsperioden varier beroende på storlek och komplexictet, vi skriver all kod från grunden för att säkerställa att kunden får det den önskar. En sida likt denna tar 1-2 veckor medans en större med fler sidor kan ta mellan 4-8 veckor.'
   },
   {
     question: 'Erbjuder ni support efter lansering?',
-    answer: 'Ja, vi erbjuder kostnadsfri support efter lansering. Mindre ändringar ingår utan extra kostnad, medan en avgift kan tillkomma för större ändringar.upport och mindre ändringar ingår utan extra kostnad. Vid behov av större ändringar kan dock en tilläggskostnad tillkomma.'
+    answer: 'Ja, vi erbjuder kostnadsfri support efter lansering. Mindre ändringar ingår utan extra kostnad, medan en avgift kan tillkomma för större ändringar.'
   },
   {
     question: 'Hur ser er prisstruktur ut?',

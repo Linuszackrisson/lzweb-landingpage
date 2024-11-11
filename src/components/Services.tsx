@@ -16,7 +16,7 @@ export function Services() {
     {
       icon: Search,
       title: "SEO",
-      description: "Vi bygger din hemsida med SEO i åtanke, så att den syns högt sökresultat och når fler potentiella kunder."
+      description: "Vi bygger din hemsida med SEO i åtanke, så att den ger högt sökresultat och når fler potentiella kunder."
     }
   ];
 

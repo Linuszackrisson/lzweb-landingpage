@@ -29,14 +29,14 @@ export function Hero() {
             </div>
             
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-white">
-              Vi Utvecklar 
+              Vi utvecklar 
               <span className="block mt-2 bg-gradient-to-r from-blue-500 to-indigo-500 bg-clip-text text-transparent">
-              Din Webbplats
+              din webbplats
               </span>
             </h1>
             
             <p className="text-lg text-neutral-400 mb-8 leading-relaxed">
-            Din vision, vår kod. Vi skapar webbplatser som inte bara ser bra ut utan också ökar din försäljning.
+            Din vision, vår kod. Vi skapar webbplatser ser bra ut och ökar din försäljning.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">
