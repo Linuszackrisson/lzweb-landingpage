@@ -4,30 +4,26 @@ import { ChevronDown } from 'lucide-react';
 const faqs = [
   {
     question: 'Vilka tjänster erbjuder ni?',
-    answer: 'Vi är specialiserade på utveckling av nya och befintliga webbplatser, och kan hjälpa till med andra digitala behov också.'
+    answer: 'Vi är specialiserade på utveckling av nya eller befintliga webbplatser. Vi har bred kompetens inom området, så behöver du hjälp med annat så går även det.'
   },
   {
     question: 'Hur lång tid tar det att utveckla en webbplats?',
-    answer: 'Utvecklingstiden varierar beroende på projektets storlek och komplexitet. Vi skriver all kod från grunden för att säkerställa att du får exakt det du önskar. En enkel sida tar 1-2 veckor, medan en större sida kan ta 4-8 veckor.'
+    answer: 'Utvecklingsperioden varier beroende på storlek och komplexictet, vi skriver all kod från grunden för att säkerställa just du får det du önskar. En sida likt denna tar 1-2 veckor medans en större med fler sidor kan ta mellan 4-8 veckor.'
   },
   {
     question: 'Erbjuder ni support efter lansering?',
-    answer: 'Support och mindre ändringar ingår kostnadsfritt. Vid större ändringar kan en extra kostnad tillkomma.'
+    answer: 'Ja, vi erbjuder kostnadsfri support efter lansering. Mindre ändringar ingår utan extra kostnad, medan en avgift kan tillkomma för större ändringar.upport och mindre ändringar ingår utan extra kostnad. Vid behov av större ändringar kan dock en tilläggskostnad tillkomma.'
   },
   {
     question: 'Hur ser er prisstruktur ut?',
-    answer: 'Vi erbjuder skräddarsydda lösningar, och priserna baseras på projektets omfattning och komplexitet. Kontakta oss för en kostnadsfri konsultation och en prisuppskattning.'
-  },
-  {
-    question: 'Vilka tekniker använder ni?',
-    answer: 'Vid byggnation från grunden använder vi oftast React, TypeScript och Tailwind CSS. Vi använder inga site builders utan skriver all kod rad för rad, vilket kan ta längre tid men påverkar inte priset. Önskas andra tekniker kan vi alltid anpassa oss efter dina behov.'
+    answer: 'Vi erbjuder skräddarsydda lösningar och våra priser baseras på projektets omfattning och komplexitet. Kontakta oss för en kostnadsfri konsultation där vi kan diskutera ditt projekt och ge en detaljerad prisuppskattning.'
   }
 ];
 
 export function FAQ() {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  const toggleQuestion = (index: number) => {
+  const toggleQuestion = (index: number) => { 
     setOpenIndex(openIndex === index ? null : index);
   };
 

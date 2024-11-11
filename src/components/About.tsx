@@ -1,6 +1,6 @@
 import React from 'react';
 import { Users, Rocket, Clock, Shield } from 'lucide-react';
-
+import devImage from '../assets/pexels-goumbik-574073.jpg';
 const benefits = [
   {
     icon: Users,
@@ -20,8 +20,8 @@ export function About() {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div className="relative">
             <img
-              src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&q=80"
-              alt="Team working"
+                src={devImage}
+                alt="Team working"
               className="rounded-2xl shadow-2xl"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent rounded-2xl" />
