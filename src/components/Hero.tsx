@@ -28,7 +28,7 @@ export function Hero() {
               <span className="text-blue-400 font-medium">Modern Webbdesign</span>
             </div>
             
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold mb-6 text-white">
+            <h1 className="text-5xl sm:text-6xl lg:text-6xl font-bold mb-6 text-white">
               Vi utvecklar 
               <span className="block mt-2 bg-gradient-to-r from-blue-500 to-indigo-500 bg-clip-text text-transparent">
               din webbplats
