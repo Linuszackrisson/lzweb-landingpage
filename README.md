@@ -11,8 +11,5 @@
 - Responsiv design
 - Minimalistisk och användarvänlig layout
 
-## Licens
-MIT License
-
 ## Om Projektet
 Syftet med hela projektet var att lära mig **Tailwind CSS**, men jag ville också bygga något användbart för mig själv.
